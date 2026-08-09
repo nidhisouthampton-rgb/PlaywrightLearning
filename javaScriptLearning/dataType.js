@@ -39,7 +39,9 @@ console.log(typeof name1);
 let name2 = `String type 3 way`;
 console.log("name2 value is: " + name2);
 console.log(typeof name2);
+ 
 
+console.log("-------------------end -------------");
 
 /*let name = "My name is Nidhi";
 let booleanValue = true;
