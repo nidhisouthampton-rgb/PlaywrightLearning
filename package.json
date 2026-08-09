@@ -1,0 +1,14 @@
+{
+  "name": "playwrightlearning",
+  "version": "1.0.0",
+  "description": "This is a sample project to learn playwright",
+  "main": "sampleTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nidhi",
+  "license": "ISC",
+  "type": "module"
+  
+}
