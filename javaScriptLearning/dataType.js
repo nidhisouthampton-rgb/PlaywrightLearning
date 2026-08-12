@@ -24,6 +24,7 @@ console.log(typeof num);
 
 let num1 = 45.67;
 console.log("num1 value is: " + num1);
+console.log("num1 value is:" ,num1);
 console.log(typeof num1);
 
 
@@ -39,7 +40,47 @@ console.log(typeof name1);
 let name2 = `String type 3 way`;
 console.log("name2 value is: " + name2);
 console.log(typeof name2);
- 
+  
+console.log("-------------------API testing values -------------");
+
+let APi = ' " name ": " abc " , " Date " : " 12-12-1981 " , "role ": " Admin " ';
+console.log("APi value is: " + APi);
+console.log(typeof APi);
+
+console.log("-------------------constant example -------------");
+
+const para = "The sun rose over the quiet village, birds chirped happily, and children ran to school, eager to start their day.";
+console.log("para value is: " + para);
+console.log(typeof para);
+
+console.log("-------------------boolean example -------------");
+ let isActive = true;
+ console.log("current isActive = ",isActive);
+ console.log(typeof isActive);
+
+ console.log("-------------------Undefined example -------------");
+ /*If any variable declared wiithout any value then value will be undefined*/
+ let undefinedValue;
+ console.log("current undefinedValue = ",undefinedValue);
+ console.log(typeof undefinedValue);
+
+ console.log("-------------------Null example -------------");
+ /*If any variable is assigned the value null, its type will be "object"*/
+
+ let nullValue = null;
+ console.log("current nullValue = ",nullValue);
+ console.log(typeof nullValue);
+
+ console.log("-------------------Bigint example -------------");
+
+ let value = 123456778899999000000000000000n;
+ console.log("value of bigint :" + value);
+ console.log(typeof value);
+
+ console.log("-------------------symbol example -------------");
+
+ /* we define object with {} */
+
 
 console.log("-------------------end -------------");
 
