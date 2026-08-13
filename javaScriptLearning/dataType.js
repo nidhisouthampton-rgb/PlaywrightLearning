@@ -81,18 +81,10 @@ console.log("-------------------boolean example -------------");
 
  /* we define object with {} */
 
+let x ={n:1};
+console.log("value of symbol :" + x);
+console.log(typeof x);
 
 console.log("-------------------end -------------");
 
-/*let name = "My name is Nidhi";
-let booleanValue = true;
-console.log(num);
-let a= 1;
-console.log("a value is: " + a );
-let array = new Array("pune", "mumbai", "banglore");
-console.log(array.length);
-for(let i in array)
-    {
-        console.log(i);
-    }
-*/
+
