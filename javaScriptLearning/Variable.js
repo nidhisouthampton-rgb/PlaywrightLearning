@@ -50,12 +50,12 @@ A variable declared inside a function has function scope. It can only be accesse
 ---------------------------------------------------
 A variable declared inside a block(if() ,For() ,while () block) (e.g., inside curly braces {}) has block scope. It can only be accessed within that block.*/
 
-redclaration 
+/*redclaration */
 
-let a =100;
-let a = 200;
+let c =100;
 
-reassignment
+
+//reassignment//
 let b= 100;
 b =200;
 console.log("------Global Scope-------");
@@ -67,4 +67,16 @@ console.log(a);//10
 console.log(name);//Nidhi
 console.log(temp);//25.2
 
-console.log("-------------Global data from functions---------------");
+console.log("-------------Global data from functions---------------"); 
+console.log(a1);
+var a1 = 100;
+console.log(a1);
+
+
+let a2 = 200;
+console.log(a2);
+
+
+
+const a3 = 200;
+console.log(a3);
