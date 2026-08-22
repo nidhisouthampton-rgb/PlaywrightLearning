@@ -75,4 +75,4 @@ function test5(){
     }
     console.log("c value is: " + c);
 }
-test5();
+
