@@ -45,6 +45,34 @@ test3();
 let test4 = () =>{
 
     let a= 10;
-    console.log(b);
+    console.log(a);
 }
 test4();
+
+console.log("------------------Block Scope example -------------");
+
+if(false){
+
+    let browser = "Chrome";
+    const version = "1.0";
+    console.log(browser);
+    console.log(version);
+}
+else{
+    console.log("Block scope is not accessible outside the block");
+}
+
+let c = 100;
+console.log("c value is: " + c);
+
+function test5(){
+    let c = 200;
+    console.log("c value is: " + c);
+
+    if(true){
+        let c = 300;
+        console.log("c value is: " + c);
+    }
+    console.log("c value is: " + c);
+}
+test5();
