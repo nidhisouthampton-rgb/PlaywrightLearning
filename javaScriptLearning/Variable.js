@@ -48,10 +48,16 @@ A variable declared inside a function has function scope. It can only be accesse
 
 3. Block Scope: (only applicable for let and const)
 ---------------------------------------------------
-A variable declared inside a block(if() ,For() ,while () block) (e.g., inside curly braces {}) has block scope. It can only be accessed within that block.
+A variable declared inside a block(if() ,For() ,while () block) (e.g., inside curly braces {}) has block scope. It can only be accessed within that block.*/
 
+redclaration 
 
-*/
+let a =100;
+let a = 200;
+
+reassignment
+let b= 100;
+b =200;
 console.log("------Global Scope-------");
 var a = 10;
 let name = "Nidhi";
