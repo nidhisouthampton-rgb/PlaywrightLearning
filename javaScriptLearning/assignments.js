@@ -106,10 +106,25 @@ console.log(b); // ?
 testScope(); */ 
 
 function testScope() { 
-let a = 20;
-var b = 30;
-const c=40; 
-console.log(b);
+if (true) { 
+var a = 10; 
+let b = 20; 
 } 
-
+console.log(a); // answer- 10
+console.log(b); //Answer - it will give error because let does not have functional scope
+} 
 testScope();
+
+/*5. Const Behavior 
+What will happen? 
+const obj = { name: "Alice" }; 
+obj.name = "Bob"; 
+console.log(obj.name); 
+obj = { name: "Charlie" }; // What happens here?here it will give error as const obj properties can be changed but not the reference  */
+
+const obj = { name: "Alice" }; 
+obj.name = "Bob"; 
+console.log(obj.name); 
+ obj = { name: "Charlie" };
+
+ console.log(typeof null);
